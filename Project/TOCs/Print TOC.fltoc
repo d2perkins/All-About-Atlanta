@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultToc
   Version="1">
   <TocEntry
@@ -21,7 +21,7 @@
     PageLayout="/Content/Resources/PageLayouts/TOC.flpgl" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/AllAboutSanDiego.htm"
+    Link="/Content/AllAboutAtlanta.htm"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
@@ -35,7 +35,7 @@
     PageType="firstright" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/SanDiegoAttractions.htm"
+    Link="/Content/Entertainment.htm"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
@@ -43,7 +43,7 @@
     PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/SanDiegoCuisine.htm"
+    Link="/Content/Film in ATL.htm"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
@@ -54,7 +54,7 @@
       Link="/Content/Food.htm" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/Beer.htm" />
+      Link="/Content/Metro-ATL.htm" />
   </TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"

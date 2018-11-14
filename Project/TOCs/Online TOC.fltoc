@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultToc
   Version="1">
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/AllAboutSanDiego.htm" />
+    Link="/Content/AllAboutAtlanta.htm" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/SanDiegoAttractions.htm"></TocEntry>
+    Link="/Content/Entertainment.htm"></TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/SanDiegoCuisine.htm">
+    Link="/Content/Film in ATL.htm">
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/Food.htm" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/Beer.htm" />
+      Link="/Content/Metro-ATL.htm" />
   </TocEntry>
 </CatapultToc>
