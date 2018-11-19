@@ -9,6 +9,12 @@
     PageLayout="/Content/Resources/PageLayouts/Title.flpgl" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
+    Link="/Content/Transportation.htm" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Metro-ATL.htm" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
     Link="/Content/PrintOnlyTopics/Copyright.htm"
     BreakType="pageLayout"
     StartSection="false"
@@ -50,11 +56,9 @@
     PageType="firstright"
     PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl">
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/Food.htm" />
+      Title="[%=System.LinkedTitle%]" />
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/Metro-ATL.htm" />
+      Title="[%=System.LinkedTitle%]" />
   </TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"

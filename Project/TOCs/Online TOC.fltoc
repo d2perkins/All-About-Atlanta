@@ -11,10 +11,8 @@
     Title="[%=System.LinkedTitle%]"
     Link="/Content/Film in ATL.htm">
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/Food.htm" />
+      Title="[%=System.LinkedTitle%]" />
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/Metro-ATL.htm" />
+      Title="[%=System.LinkedTitle%]" />
   </TocEntry>
 </CatapultToc>
