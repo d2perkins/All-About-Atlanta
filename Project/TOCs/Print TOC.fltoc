@@ -3,28 +3,16 @@
   Version="1">
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/PrintOnlyTopics/TitlePage.htm"
-    BreakType="pageLayout"
-    StartSection="false"
-    PageLayout="/Content/Resources/PageLayouts/Title.flpgl" />
-  <TocEntry
-    Title="[%=System.LinkedTitle%]"
-    Link="/Content/Transportation.htm" />
-  <TocEntry
-    Title="[%=System.LinkedTitle%]"
-    Link="/Content/Metro-ATL.htm" />
-  <TocEntry
-    Title="[%=System.LinkedTitle%]"
-    Link="/Content/PrintOnlyTopics/Copyright.htm"
-    BreakType="pageLayout"
-    StartSection="false"
-    PageLayout="/Content/Resources/PageLayouts/Copyright.flpgl" />
-  <TocEntry
-    Title="[%=System.LinkedTitle%]"
     Link="/Content/PrintOnlyTopics/PrintTOC.htm"
     BreakType="pageLayout"
     StartSection="false"
     PageLayout="/Content/Resources/PageLayouts/TOC.flpgl" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/PrintOnlyTopics/TitlePage.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/Title.flpgl" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/AllAboutAtlanta.htm"
@@ -49,17 +37,31 @@
     PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/Film in ATL.htm"
-    BreakType="chapter"
+    Link="/Content/Food.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Transportation.htm" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Metro-ATL.htm" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Film in ATL.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Future.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     StartSection="false"
-    PageNumberReset="continue"
-    PageType="firstright"
-    PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl">
-    <TocEntry
-      Title="[%=System.LinkedTitle%]" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]" />
-  </TocEntry>
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ComputeToc="false"
+    ReplaceMergeNode="false" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/PrintOnlyTopics/Copyright.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/Copyright.flpgl" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/PrintOnlyTopics/Resources.htm"
@@ -68,5 +70,5 @@
     StartSection="false"
     PageNumberReset="continue"
     PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl"
-    AutoEndOnLeftPage="disabled" />
+    AutoEndOnLeftPage="disabled"></TocEntry>
 </CatapultToc>

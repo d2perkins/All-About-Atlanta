@@ -2,11 +2,14 @@
 <CatapultTarget
   Version="2"
   Comment="New Target"
-  Type="PDF"
+  Type="WebHelp2"
   Destinations=""
   ConditionTagExpression="include[Default.PrintOnly] exclude[Default.ScreenOnly] "
-  MasterToc="/Project/TOCs/Print TOC.fltoc"
-  PatchHeadingLevels="true">
+  MasterToc="/Project/TOCs/Online TOC.fltoc"
+  PatchHeadingLevels="true"
+  Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+  MenuSkin="/Project/Skins/SideMenu.flskn"
+  TopicToolbarSkin="/Project/Skins/TopicToolBar.flskn">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
