@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
   Comment="New Target"
@@ -14,10 +14,21 @@
     GenerateGlossaryProxy="false" />
   <Glossaries />
   <DocumentProperties
-    Author="MadCap Software"
-    Title="All About San Diego" />
+    Author="Davis Perkins"
+    Title="All About Atlanta" />
   <PDF
     ShowUsedBookmarks="false"
     PageLayout="OneColumn"
-    TitleBar="DocumentTitle" />
+    TitleBar="DocumentTitle"
+    DownsampleImages="false" />
+  <Variables>
+    <Variable
+      Name="General/CityStateZip">Atlanta, GA 30301</Variable>
+    <Variable
+      Name="General/GuideTitle">All About Atlanta</Variable>
+    <Variable
+      Name="General/PhoneNumber">404-555-5678</Variable>
+    <Variable
+      Name="General/StreetAddress">1234 United Ave.</Variable>
+  </Variables>
 </CatapultTarget>
