@@ -3,16 +3,16 @@
   Version="1">
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/PrintOnlyTopics/PrintTOC.htm"
-    BreakType="pageLayout"
-    StartSection="false"
-    PageLayout="/Content/Resources/PageLayouts/TOC.flpgl" />
-  <TocEntry
-    Title="[%=System.LinkedTitle%]"
     Link="/Content/PrintOnlyTopics/TitlePage.htm"
     BreakType="pageLayout"
     StartSection="false"
     PageLayout="/Content/Resources/PageLayouts/Title.flpgl" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/PrintOnlyTopics/PrintTOC.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/TOC.flpgl" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/AllAboutAtlanta.htm"
@@ -62,13 +62,4 @@
     BreakType="pageLayout"
     StartSection="false"
     PageLayout="/Content/Resources/PageLayouts/Copyright.flpgl" />
-  <TocEntry
-    Title="[%=System.LinkedTitle%]"
-    Link="/Content/PrintOnlyTopics/Resources.htm"
-    BreakType="chapter"
-    PageType="firstright"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/Chapters.flpgl"
-    AutoEndOnLeftPage="disabled"></TocEntry>
 </CatapultToc>
