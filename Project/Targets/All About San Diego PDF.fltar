@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
-  Comment="Final PDF Version"
+  Comment="Final PDF"
   Type="PDF"
   Destinations=""
   ConditionTagExpression="include[Default.PrintOnly] exclude[Default.ScreenOnly] "
